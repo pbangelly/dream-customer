@@ -9,7 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/kit": "next",
 		"netlify-cli": "^3.21.5",
 		"svelte-preprocess": "^4.7.0"
