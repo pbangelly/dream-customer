@@ -2,17 +2,16 @@
 <div class="py-12 bg-white">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="lg:text-center">
-			<h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
+			<h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Hack The Ratio</h2>
 			<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-				A better way to send money
+				Built For This Century
 			</p>
 			<p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-				Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate
-				veritatis in accusamus quisquam.
+				Build an online presence that meets your needs, and your audience's needs. 
 			</p>
 		</div>
 
-		<div class="mt-10">
+		<div class="mt-20">
 			<dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
 				<div class="flex">
 					<div class="flex-shrink-0">
@@ -38,10 +37,9 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg leading-6 font-medium text-gray-900">Competitive exchange rates</dt>
+						<dt class="text-lg leading-6 font-medium text-gray-900">Business Systems setup </dt>
 						<dd class="mt-2 text-base text-gray-500">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
-							suscipit eaque, iste dolor cupiditate blanditiis ratione.
+							Domain/SSL, Online Business Management, Setup Business Email, Social Media Integration, Analytics integrations, and more.
 						</dd>
 					</div>
 				</div>
@@ -70,10 +68,9 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg leading-6 font-medium text-gray-900">No hidden fees</dt>
+						<dt class="text-lg leading-6 font-medium text-gray-900">Web Development</dt>
 						<dd class="mt-2 text-base text-gray-500">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
-							suscipit eaque, iste dolor cupiditate blanditiis ratione.
+							Websites, Blogs, eCommerce, Funnels, and Landing pages are built with modern tools for fast responsive sites and integrated with analytics tools for observability.
 						</dd>
 					</div>
 				</div>
@@ -102,10 +99,9 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg leading-6 font-medium text-gray-900">Transfers are instant</dt>
+						<dt class="text-lg leading-6 font-medium text-gray-900">Data</dt>
 						<dd class="mt-2 text-base text-gray-500">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
-							suscipit eaque, iste dolor cupiditate blanditiis ratione.
+							Start, grow and maintain a relationship with your customers by knowing them. It all starts with data.
 						</dd>
 					</div>
 				</div>
@@ -134,10 +130,9 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg leading-6 font-medium text-gray-900">Mobile notifications</dt>
+						<dt class="text-lg leading-6 font-medium text-gray-900">Markeing</dt>
 						<dd class="mt-2 text-base text-gray-500">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
-							suscipit eaque, iste dolor cupiditate blanditiis ratione.
+							We use powerful marketing and research tools to create value in the market.
 						</dd>
 					</div>
 				</div>

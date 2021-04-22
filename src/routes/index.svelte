@@ -1,15 +1,14 @@
 <script>
-	import Counter from '$lib/Counter.svelte';
 	import Hero from '$lib/Hero.svelte';
 	import Feature from '$lib/Feature.svelte';
-	import CTA from '$lib/CTA.svelte';
+	// import CTA from '$lib/CTA.svelte';
 </script>
 
 <Hero />
 <Feature />
-<CTA />
+<!-- <CTA /> -->
 
-<main>
+<!-- <main>
 	<h1>Hello world!</h1>
 
 	<Counter />
@@ -18,7 +17,7 @@
 		Visit <a class="text-blue-600 underline" href="https://svelte.dev">svelte.dev</a> to learn how to
 		build Svelte apps.
 	</p>
-</main>
+</main> -->
 
 <style style lang="postcss">
 	main {
