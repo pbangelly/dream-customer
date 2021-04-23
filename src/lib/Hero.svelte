@@ -1,10 +1,10 @@
-<script>
+<!-- <script>
 	let showMenu = false;
 
 	function handleClickToggle() {
 		showMenu = !showMenu;
 	}
-</script>
+</script> -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative bg-white overflow-hidden">
@@ -13,13 +13,13 @@
 			class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
 		>
 
-			<div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-				<nav
+			<!-- <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+			<nav
 					class="relative flex items-center justify-between sm:h-10 lg:justify-start"
 					aria-label="Global"
 				>
 					<div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-						<div class="flex items-center justify-between w-full md:w-auto">
+					  <div class="flex items-center justify-between w-full md:w-auto">
 							<a href="#">
 								<span class="sr-only">Workflow</span>
 								<img
@@ -27,6 +27,7 @@
 									src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
 								/>
 							</a>
+							
 							<div class="-mr-2 flex items-center md:hidden">
 								<button
 									on:click={handleClickToggle}
@@ -36,7 +37,7 @@
 									aria-haspopup="true"
 								>
 									<span class="sr-only">Open main menu</span>
-									<!-- Heroicon name: outline/menu -->
+									Heroicon name: outline/menu
 									<svg
 										class="h-6 w-6"
 										xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +54,10 @@
 										/>
 									</svg>
 								</button>
-							</div>
+							</div> 
 						</div>
 					</div>
-					<!-- <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+					<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
 						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
 
 						<a href="" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
@@ -66,9 +67,9 @@
 						<a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
 
 						<a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
-					</div> -->
+					</div>
 				</nav>
-			</div>
+			</div> -->
 
 			<!--
         Mobile menu, show/hide based on menu open state.
@@ -80,28 +81,27 @@
           From: "opacity-100 scale-100"
           To: "opacity-0 scale-95"
       -->
-			<div
-				class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden {showMenu
+			<!-- <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden {showMenu
 					? 'duration-150 ease-out opacity-100 scale-100'
 					: 'duration-100 ease-in opacity-0 scale-95'}"
-			>
-				<div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-					<div class="px-5 pt-4 flex items-center justify-between">
+			> -->
+				<!-- <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"> -->
+					<!-- <div class="px-5 pt-4 flex items-center justify-between">
 						<div>
 							<img
 								class="h-8 w-auto"
 								src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
 								alt=""
 							/>
-						</div>
-						<div class="-mr-2">
+						</div> -->
+						<!-- <div class="-mr-2">
 							<button
 								on:click={handleClickToggle}
 								type="button"
 								class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 							>
 								<span class="sr-only">Close main menu</span>
-								<!-- Heroicon name: outline/x -->
+								Heroicon name: outline/x
 								<svg
 									class="h-6 w-6"
 									xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@
 									/>
 								</svg>
 							</button>
-						</div>
+						</div> 
 					</div>
 					<div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
 						<div class="px-2 pt-2 pb-3 space-y-1" role="none">
@@ -157,7 +157,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> 
+		-->
 
 			<main
 				class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
@@ -166,7 +167,7 @@
 				<div class="sm:text-center lg:text-left">
 					<h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
 						<span class="block xl:inline">Build an online presence</span>
-						<span class="block text-indigo-600 xl:inline"> that fits your business and customers needs </span>
+						<span class="block text-indigo-500 xl:inline"> that fits your business and customers needs </span>
 					</h1>
 					<p
 						class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
@@ -178,19 +179,19 @@
 						<div class="rounded-md shadow">
 							<a
 								href="https://calendly.com/hacktheratio/15min"
-								class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+								class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
 							>
 								Get Discovered
 							</a>
 						</div>
-						<!-- <div class="mt-3 sm:mt-0 sm:ml-3">
+						<div class="mt-3 sm:mt-0 sm:ml-3">
 							<a
-								href="#"
+								href="https://docs.google.com/forms/d/e/1FAIpQLSd4uj5SG9G51tIwCZ_APhrND08EJkTgaG7Xqf03OQXD22jfSA/viewform?usp=sf_link"
 								class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
 							>
-								Live demo
+								Take Free Q&A
 							</a>
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</main>
@@ -202,6 +203,6 @@
 			src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
 			alt=""
 		/> -->
-		<img class="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" src={"iphone.png"}/>
+		<img class="h-56 w-full object-contain sm:h-72 md:h-96 lg:w-full lg:h-full" alt="iphone mockup" src={"iphone.png"}/>
 	</div>
 </div>
