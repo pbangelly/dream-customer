@@ -6,7 +6,7 @@
 </script>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="py-12 bg-white">
+<div class="py-12">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="lg:text-center">
 			<h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Hack The Ratio</h2>
@@ -14,7 +14,7 @@
 				Built For This Century
 			</p>
 			<p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-				Build an online presence that meets your needs, and your audience's needs. 
+				Build an online presence that meets your needs and your audience's needs. 
 			</p>
 		</div>
 
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 					<div class="ml-4">
-						<dt class="text-lg leading-6 font-medium text-gray-900">Business Systems setup </dt>
+						<dt class="text-lg leading-6 font-medium text-gray-900">Business Systems</dt>
 						<dd class="mt-2 text-base text-gray-500">
 							Domain/SSL, Online Business Management, Setup Business Email, Social Media Integration, Analytics integrations, and more.
 						</dd>
