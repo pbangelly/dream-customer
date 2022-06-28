@@ -9,6 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
+		"@rollup/plugin-inject": "^4.0.4",
 		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/kit": "next",
 		"netlify-cli": "^3.21.5",
