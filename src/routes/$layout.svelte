@@ -1,7 +1,7 @@
 <script>
 	import '../app.postcss';
-	import GTM from '../lib/GTM.svelte'
+	// import GTM from '../lib/GTM.svelte'
 </script>
 
-<GTM/>
+<!-- <GTM/> -->
 <slot />
